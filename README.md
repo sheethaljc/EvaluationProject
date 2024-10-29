@@ -1,6 +1,6 @@
 A simple iOS app using Swift and UIKit that fetches the most popular articles from the New York Times API or any public api and displays them in a list format. The app will follow the Clean Architecture pattern and utilize Alamofire or urlsession for network communication.
 
-Implemenation Overview
+Implementation Overview
 
 Used async and await to implement layers, making it easier to write clear, readable asynchronous code and removing the need for nested closures and completion handlers. In Swift, async and await are language features introduced to make asynchronous code more readable and structured, by eliminating complex callback chains and nested closures.
 
