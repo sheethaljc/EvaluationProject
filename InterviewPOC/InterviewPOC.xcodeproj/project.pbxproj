@@ -51,9 +51,9 @@
 		368AE0692CD0285E006A2639 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AE0662CD0285E006A2639 /* Extensions.swift */; };
 		36E066AF2CD0AFC7002BF79B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA32CD03E0600D2C2D5 /* Constants.swift */; };
 		36E066B02CD0AFC8002BF79B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA32CD03E0600D2C2D5 /* Constants.swift */; };
-		36E066B12CD0AFE6002BF79B /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewViewController.swift */; };
-		36E066B22CD0AFE7002BF79B /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewViewController.swift */; };
-		36F6CDA22CD03DBA00D2C2D5 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewViewController.swift */; };
+		36E066B12CD0AFE6002BF79B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewController.swift */; };
+		36E066B22CD0AFE7002BF79B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewController.swift */; };
+		36F6CDA22CD03DBA00D2C2D5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA12CD03DBA00D2C2D5 /* WebViewController.swift */; };
 		36F6CDA42CD03E0600D2C2D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CDA32CD03E0600D2C2D5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +99,7 @@
 		368AE05E2CCFFDE2006A2639 /* NewListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListTableViewCell.swift; sourceTree = "<group>"; };
 		368AE05F2CCFFDE2006A2639 /* NewListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewListTableViewCell.xib; sourceTree = "<group>"; };
 		368AE0662CD0285E006A2639 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		36F6CDA12CD03DBA00D2C2D5 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		36F6CDA12CD03DBA00D2C2D5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		36F6CDA32CD03E0600D2C2D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,7 +227,7 @@
 		36F6CDA02CD03D9600D2C2D5 /* Web View */ = {
 			isa = PBXGroup;
 			children = (
-				36F6CDA12CD03DBA00D2C2D5 /* WebViewViewController.swift */,
+				36F6CDA12CD03DBA00D2C2D5 /* WebViewController.swift */,
 			);
 			path = "Web View";
 			sourceTree = "<group>";
@@ -370,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F6CDA22CD03DBA00D2C2D5 /* WebViewViewController.swift in Sources */,
+				36F6CDA22CD03DBA00D2C2D5 /* WebViewController.swift in Sources */,
 				368AE0552CCFE96A006A2639 /* ResponseManager.swift in Sources */,
 				368AE04C2CCFD3ED006A2639 /* NewsListModel.swift in Sources */,
 				368AE0602CCFFDE2006A2639 /* NewListTableViewCell.swift in Sources */,
@@ -400,7 +400,7 @@
 				368AE03A2CCFBC20006A2639 /* NetworkManager.swift in Sources */,
 				368AE0612CCFFDE2006A2639 /* NewListTableViewCell.swift in Sources */,
 				368AE0452CCFD1F0006A2639 /* NewsListBusiness.swift in Sources */,
-				36E066B12CD0AFE6002BF79B /* WebViewViewController.swift in Sources */,
+				36E066B12CD0AFE6002BF79B /* WebViewController.swift in Sources */,
 				368ADFF22CCFB2A8006A2639 /* InterviewPOCTests.swift in Sources */,
 				368AE0682CD0285E006A2639 /* Extensions.swift in Sources */,
 				368AE0522CCFE94F006A2639 /* APIManager.swift in Sources */,
@@ -412,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E066B22CD0AFE7002BF79B /* WebViewViewController.swift in Sources */,
+				36E066B22CD0AFE7002BF79B /* WebViewController.swift in Sources */,
 				368AE05C2CCFFCB4006A2639 /* Utility.swift in Sources */,
 				368AE0532CCFE94F006A2639 /* APIManager.swift in Sources */,
 				368AE03B2CCFBC20006A2639 /* NetworkManager.swift in Sources */,

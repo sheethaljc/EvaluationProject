@@ -1,5 +1,5 @@
 //
-//  WebViewViewController.swift
+//  WebViewController.swift
 //  InterviewPOC
 //
 //  Created by sheethal.chalissery on 29/10/24.
@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class WebViewViewController: UIViewController {
+class WebViewController: UIViewController {
     
     @IBOutlet weak var webView: WKWebView!
     private var url: URL?

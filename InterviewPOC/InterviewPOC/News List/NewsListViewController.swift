@@ -72,8 +72,8 @@ extension NewsListViewController: UITableViewDelegate, UITableViewDataSource {
         guard let item = interacter.results?[indexPath.row], let link = item.link, let url = URL(string: link) else {
             return
         }
-        pushToVC(toStoryboard: StoryBoard.main, toVC: WebViewViewController.self) { vc in
-            if let vc = vc as? WebViewViewController {
+        pushToVC(toStoryboard: StoryBoard.main, toVC: WebViewController.self) { vc in
+            if let vc = vc as? WebViewController {
                 vc.assignUrl(url)
             }
         }
