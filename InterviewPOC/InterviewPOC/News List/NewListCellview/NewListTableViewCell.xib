@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewListTableViewCell" rowHeight="231" id="KGk-i7-Jjw" customClass="NewListTableViewCell" customModule="InterviewPOC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="231"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="231"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boQ-Mx-RUn" customClass="RoundedCornerView" customModule="InterviewPOC" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="330" height="211"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Cz-vM-7Dp" userLabel="Title">
+                                <rect key="frame" x="10" y="10" width="310" height="148.66666666666666"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-dP-MP8" userLabel="Content">
+                                <rect key="frame" x="10" y="168.66666666666666" width="310" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMd-eB-LgL" userLabel="date">
+                                <rect key="frame" x="293.66666666666669" y="194" width="26.333333333333314" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Cz-vM-7Dp" firstAttribute="top" secondItem="boQ-Mx-RUn" secondAttribute="top" constant="10" id="19S-Yr-Shw"/>
+                            <constraint firstAttribute="trailing" secondItem="6Cz-vM-7Dp" secondAttribute="trailing" constant="10" id="WOG-Es-me9"/>
+                            <constraint firstItem="GMd-eB-LgL" firstAttribute="trailing" secondItem="6Cz-vM-7Dp" secondAttribute="trailing" id="Y4S-sa-6tz"/>
+                            <constraint firstItem="hpE-dP-MP8" firstAttribute="top" secondItem="6Cz-vM-7Dp" secondAttribute="bottom" constant="10" id="ZPb-tw-nJm"/>
+                            <constraint firstItem="hpE-dP-MP8" firstAttribute="trailing" secondItem="6Cz-vM-7Dp" secondAttribute="trailing" id="htS-ey-B7Y"/>
+                            <constraint firstItem="hpE-dP-MP8" firstAttribute="bottom" secondItem="GMd-eB-LgL" secondAttribute="top" constant="-5" id="ncN-4m-QoH"/>
+                            <constraint firstItem="hpE-dP-MP8" firstAttribute="leading" secondItem="6Cz-vM-7Dp" secondAttribute="leading" id="oek-wW-VJx"/>
+                            <constraint firstItem="6Cz-vM-7Dp" firstAttribute="leading" secondItem="boQ-Mx-RUn" secondAttribute="leading" constant="10" id="tYr-27-kGn"/>
+                            <constraint firstAttribute="bottom" secondItem="GMd-eB-LgL" secondAttribute="bottom" constant="5" id="zav-a6-jRY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="AccentColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="boQ-Mx-RUn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7HY-Nt-xsG"/>
+                    <constraint firstAttribute="bottom" secondItem="boQ-Mx-RUn" secondAttribute="bottom" constant="10" id="jJd-KY-oKu"/>
+                    <constraint firstAttribute="trailing" secondItem="boQ-Mx-RUn" secondAttribute="trailing" constant="10" id="soi-rY-xS5"/>
+                    <constraint firstItem="boQ-Mx-RUn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="wOj-lk-KuQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="content" destination="hpE-dP-MP8" id="GI6-X7-qMA"/>
+                <outlet property="date" destination="GMd-eB-LgL" id="gPi-Fp-pdQ"/>
+                <outlet property="title" destination="6Cz-vM-7Dp" id="66B-7y-QFH"/>
+            </connections>
+            <point key="canvasLocation" x="169.46564885496181" y="57.394366197183103"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.17254901960784313" green="0.23921568627450981" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
