@@ -10,3 +10,6 @@ Used dependency injection to improve modularity, facilitate testing, and reduce 
 
 
 <img width="1212" alt="Screenshot 2024-10-29 at 12 32 12 PM" src="https://github.com/user-attachments/assets/c7647577-1368-4959-8665-5252141d10ed">
+
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-10-29 at 12 54 17](https://github.com/user-attachments/assets/9d9fac0c-7c0b-4f93-b9d4-f6c527ed0344)
